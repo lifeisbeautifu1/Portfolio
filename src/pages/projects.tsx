@@ -108,7 +108,7 @@ export default function Projects() {
           <span className="text-[#C5947C]"> "PostgreSQL"</span>,
           <span className="text-[#C5947C]"> "Redis"</span>,
           <span className="text-[#C5947C]"> "Prisma"</span>,
-          <span className="text-[#C5947C]"> "WebSockets"</span>,
+          <span className="text-[#C5947C]"> "WebSockets"</span>
           <span className="text-[#F7D648]">{"]"}</span>,
         </div>
         <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['22']">
