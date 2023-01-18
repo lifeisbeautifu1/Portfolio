@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 const Nav = () => {
   const router = useRouter();
   return (
-    <nav className="flex items-center bg-[#191919] text-lg text-gray-300/80 shadow-xl">
+    <nav className="flex select-none items-center bg-[#191919] text-lg text-gray-300/80 shadow-xl">
       <Link
         href="/"
         className={`flex cursor-pointer items-center py-2.5 px-4 pr-8 ${

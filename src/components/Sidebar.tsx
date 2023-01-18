@@ -5,7 +5,7 @@ import { Disclosure, Transition } from "@headlessui/react";
 
 const Sidebar = () => {
   return (
-    <div className="h-full w-[19rem] flex-shrink-0 bg-[#1e1e1e] shadow">
+    <div className="h-full w-[19rem] flex-shrink-0 select-none bg-[#1e1e1e] shadow">
       <div className="flex items-center justify-between py-2.5 pr-5 pl-7 text-gray-300/80">
         <p className="uppercase">Explorer</p>
         <div className="cursor-pointer rounded px-1 py-1 text-2xl hover:bg-gray-600/30">

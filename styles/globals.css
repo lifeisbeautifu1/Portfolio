@@ -2,11 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.typewriter {
+  display: flex;
+}
+
 .typewriter h2 {
   overflow: hidden;
   /* Ensures the content is not revealed until the animation */
-
-  border-right: 0.1em solid #ccc;
 
   white-space: nowrap;
   /* Keeps the content on a single line */
@@ -14,7 +16,17 @@
   /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.05em;
   /* Adjust as needed */
-  animation: typing 2s steps(40, end), blink-caret 1.5s 2s step-end infinite;
+  animation: typing 2s steps(40, end);
+}
+
+.typewriter::after {
+  content: "";
+  width: 0.1em;
+  height: 100%;
+  background-color: #ccc;
+  transition: all 300ms ease-out;
+  transform-origin: center;
+  animation: blink-caret 1s 2s infinite;
 }
 
 /* The typing effect */
@@ -30,12 +42,15 @@
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
+  0% {
+    transform: scaleY(100%);
   }
 
   50% {
-    border-color: #ccc;
+    transform: scaleY(0);
+  }
+
+  100% {
+    transform: scaleY(100%);
   }
 }
