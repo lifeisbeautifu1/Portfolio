@@ -5,7 +5,7 @@ import { Disclosure, Transition } from "@headlessui/react";
 
 const Sidebar = () => {
   return (
-    <div className="h-full w-[19rem] bg-[#1e1e1e]">
+    <div className="h-full w-[19rem] flex-shrink-0 bg-[#1e1e1e] shadow">
       <div className="flex items-center justify-between py-2.5 pr-5 pl-7 text-gray-300/80">
         <p className="uppercase">Explorer</p>
         <div className="cursor-pointer rounded px-1 py-1 text-2xl hover:bg-gray-600/30">
@@ -47,10 +47,10 @@ const Sidebar = () => {
                       height={20}
                       alt="About"
                     />
-                    home.jsx
+                    Home.jsx
                   </Link>
                   <Link
-                    href="/"
+                    href="/about"
                     className="flex px-9 py-0.5 hover:bg-gray-700/20"
                   >
                     <Image
@@ -58,12 +58,12 @@ const Sidebar = () => {
                       className="mr-2 object-cover"
                       width={20}
                       height={20}
-                      alt="About"
+                      alt="html"
                     />
                     about.html
                   </Link>
                   <Link
-                    href="/"
+                    href="/contact"
                     className="flex items-center px-9 py-0.5 hover:bg-gray-700/20"
                   >
                     <Image
@@ -76,7 +76,7 @@ const Sidebar = () => {
                     contact.css
                   </Link>
                   <Link
-                    href="/"
+                    href="/projects"
                     className="flex items-center px-9 py-0.5 hover:bg-gray-700/20"
                   >
                     <Image
