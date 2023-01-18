@@ -329,8 +329,8 @@ export default function About() {
           <span className="text-gray-400/80">{">"}</span>
         </div>
         <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['40']">
-          <span className="text-gray-400/80">{"<"}</span>
-          <span className="text-[#6597CD]">/html</span>
+          <span className="text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">html</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
       </div>
