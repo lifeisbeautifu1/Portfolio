@@ -27,7 +27,7 @@ export default function Contact() {
         <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80  before:content-['4']"></div>
         <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80  before:content-['5']">
           <span className="text-[#D2B782]">
-            .contact <span className="text-yellow-400">{"{"}</span>
+            .contact <span className="text-[#F7D648]">{"{"}</span>
           </span>{" "}
         </div>
         <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80 before:content-['6']">
@@ -63,7 +63,7 @@ export default function Contact() {
           ;
         </div>
         <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80  before:content-['9']">
-          <span className="text-yellow-400">{"}"}</span>{" "}
+          <span className="text-[#F7D648]">{"}"}</span>{" "}
         </div>
       </div>
     </>

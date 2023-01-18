@@ -11,13 +11,13 @@ export default function About() {
       </Head>
 
       <div className="h-0 flex-grow cursor-text overflow-y-scroll whitespace-nowrap bg-[#151515] py-1 font-mono font-medium">
-        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['1']">
+        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['1']">
           <span className="text-gray-400/80">{"<!"}</span>
           <span className="text-[#6597CD]">DOCTYPE</span>{" "}
           <span className="text-[#AADAFA]">html</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['2']">
+        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['2']">
           <span className="text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">html</span>{" "}
           <span className="text-[#AADAFA]">lang</span>
@@ -25,12 +25,12 @@ export default function About() {
           <span className="text-[#C5947C]">"en"</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['3']">
+        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['3']">
           <span className="pl-6 text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">head</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['4']">
+        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['4']">
           <span className="pl-12 text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">name</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -39,34 +39,34 @@ export default function About() {
           <span className="text-[#6597CD]">name</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['5']">
+        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['5']">
           <span className="pl-12 text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">degree</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['6']">
+        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['6']">
           <span className="pl-[5rem]">Bachelor in Computer Science</span>
         </div>
-        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['7']">
+        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['7']">
           <span className="pl-[5rem]">2024 Samara University</span>
         </div>
-        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['8']">
+        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['8']">
           <span className="pl-12 text-gray-400/80">{"</"}</span>
           <span className="text-[#6597CD]">degree</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
 
-        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['9']">
+        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['9']">
           <span className="pl-6 text-gray-400/80">{"</"}</span>
           <span className="text-[#6597CD]">head</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['10']">
+        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['10']">
           <span className="pl-6 text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">body</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['11']">
+        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['11']">
           <span className="pl-12 text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">about</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -75,7 +75,7 @@ export default function About() {
           <span className="text-[#6597CD]">about</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['12']">
+        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['12']">
           <span className="pl-12 text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">age</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -84,7 +84,7 @@ export default function About() {
           <span className="text-[#6597CD]">age</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['13']">
+        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['13']">
           <span className="pl-12 text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">goal</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -94,12 +94,12 @@ export default function About() {
           <span className="text-gray-400/80">{">"}</span>
         </div>
 
-        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['14']">
+        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['14']">
           <span className="pl-12 text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skills</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['15']">
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['15']">
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -108,7 +108,7 @@ export default function About() {
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['16']">
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['16']">
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -117,7 +117,7 @@ export default function About() {
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['17']">
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['17']">
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -126,7 +126,7 @@ export default function About() {
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['18']">
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['18']">
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -135,7 +135,7 @@ export default function About() {
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['19']">
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['19']">
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -144,7 +144,7 @@ export default function About() {
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['20']">
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['20']">
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -153,7 +153,7 @@ export default function About() {
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['21']">
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['21']">
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -162,7 +162,7 @@ export default function About() {
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['22']">
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['22']">
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -171,7 +171,7 @@ export default function About() {
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['23']">
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['23']">
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -180,7 +180,7 @@ export default function About() {
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['24']">
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['24']">
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -189,7 +189,7 @@ export default function About() {
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['25']">
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['25']">
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -199,7 +199,7 @@ export default function About() {
           <span className="text-gray-400/80">{">"}</span>
         </div>
 
-        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['26']">
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['26']">
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -208,7 +208,7 @@ export default function About() {
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['27']">
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['27']">
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -217,7 +217,7 @@ export default function About() {
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['28']">
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['28']">
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -226,7 +226,7 @@ export default function About() {
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['28']">
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['28']">
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -235,7 +235,7 @@ export default function About() {
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['29']">
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['29']">
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -244,7 +244,7 @@ export default function About() {
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['30']">
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['30']">
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -253,7 +253,7 @@ export default function About() {
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['31']">
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['31']">
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -262,7 +262,7 @@ export default function About() {
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['32']">
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['32']">
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -271,7 +271,7 @@ export default function About() {
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['33']">
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['33']">
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -280,7 +280,7 @@ export default function About() {
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['34']">
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['34']">
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -289,7 +289,7 @@ export default function About() {
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['35']">
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['35']">
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -298,7 +298,7 @@ export default function About() {
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['36']">
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['36']">
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -307,7 +307,7 @@ export default function About() {
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['37']">
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['37']">
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -317,18 +317,18 @@ export default function About() {
           <span className="text-gray-400/80">{">"}</span>
         </div>
 
-        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['38']">
+        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['38']">
           <span className="pl-12 text-gray-400/80">{"</"}</span>
           <span className="text-[#6597CD]">skills</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
 
-        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['39']">
+        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['39']">
           <span className="pl-6 text-gray-400/80">{"</"}</span>
           <span className="text-[#6597CD]">body</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['40']">
+        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['40']">
           <span className="text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">/html</span>
           <span className="text-gray-400/80">{">"}</span>
