@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Footer, Header, Navbar } from "../components";
+import { Footer, Header, Navbar, Sidebar } from "../components";
 
 export default function Home() {
   return (
@@ -13,6 +13,7 @@ export default function Home() {
       <Header />
       <main className="flex flex-grow">
         <Navbar />
+        <Sidebar />
       </main>
       <Footer />
     </div>
