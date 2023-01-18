@@ -11,26 +11,26 @@ export default function Contact() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex-grow cursor-text bg-[#151515] py-1 font-mono">
-        <div className="pl-10 text-lg font-bold text-white before:pr-10 before:text-gray-300/80  before:content-['1']">
+      <div className="flex-grow cursor-text bg-[#151515] py-1 font-mono font-medium">
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80  before:content-['1']">
           <span className="text-[#BC89BD]">@tailwind</span>{" "}
           <span className="text-[#AADAFA]">base</span>;
         </div>
-        <div className="pl-10 text-lg font-bold text-white before:pr-10 before:text-gray-300/80  before:content-['2']">
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80  before:content-['2']">
           <span className="text-[#BC89BD]">@tailwind</span>{" "}
           <span className="text-[#AADAFA]">components</span>;
         </div>
-        <div className="pl-10 text-lg font-bold text-white before:pr-10 before:text-gray-300/80  before:content-['3']">
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80  before:content-['3']">
           <span className="text-[#BC89BD]">@tailwind</span>{" "}
           <span className="text-[#AADAFA]">utilities</span>;
         </div>
-        <div className="pl-10 text-lg font-bold text-white before:pr-10 before:text-gray-300/80  before:content-['4']"></div>
-        <div className="pl-10 text-lg font-bold text-white before:pr-10 before:text-gray-300/80  before:content-['5']">
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80  before:content-['4']"></div>
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80  before:content-['5']">
           <span className="text-[#D2B782]">
             .contact <span className="text-yellow-400">{"{"}</span>
           </span>{" "}
         </div>
-        <div className="pl-10 text-lg font-bold text-white before:pr-10 before:text-gray-300/80 before:content-['6']">
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80 before:content-['6']">
           <span className="pl-6 text-[#AADAFA]">email:</span>{" "}
           <Link
             href="mailto: poltoradnevone@gmail.com"
@@ -40,7 +40,7 @@ export default function Contact() {
           </Link>
           ;
         </div>
-        <div className="pl-10 text-lg font-bold text-white before:pr-10 before:text-gray-300/80  before:content-['7']">
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80  before:content-['7']">
           <span className="pl-6 text-[#AADAFA]">github:</span>{" "}
           <Link
             href="https://github.com/lifeisbeautifu1"
@@ -51,7 +51,7 @@ export default function Contact() {
           </Link>
           ;
         </div>
-        <div className="pl-10 text-lg font-bold text-white before:pr-10 before:text-gray-300/80  before:content-['8']">
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80  before:content-['8']">
           <span className="pl-6 text-[#AADAFA]">telegram:</span>{" "}
           <Link
             target="_blank"
@@ -62,7 +62,7 @@ export default function Contact() {
           </Link>
           ;
         </div>
-        <div className="pl-10 text-lg font-bold text-white before:pr-10 before:text-gray-300/80  before:content-['9']">
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80  before:content-['9']">
           <span className="text-yellow-400">{"}"}</span>{" "}
         </div>
       </div>

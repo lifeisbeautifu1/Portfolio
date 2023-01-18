@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { skills } from "../constants/skils";
+
 export default function About() {
   return (
     <>
@@ -10,7 +12,330 @@ export default function About() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex-grow bg-[#151515]">About</div>
+      <div className="h-0 flex-grow cursor-text overflow-y-scroll whitespace-nowrap bg-[#151515] py-1 font-mono font-medium">
+        <div className="pl-10 text-lg  text-white before:pr-10 before:text-gray-300/80 before:content-['1']">
+          <span className="text-gray-400/80">{"<!"}</span>
+          <span className="text-[#6597CD]">DOCTYPE</span>{" "}
+          <span className="text-[#AADAFA]">html</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg  text-white before:pr-10 before:text-gray-300/80 before:content-['2']">
+          <span className="text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">html</span>{" "}
+          <span className="text-[#AADAFA]">lang</span>
+          <span>=</span>
+          <span className="text-[#C5947C]">"en"</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg  text-white before:pr-10 before:text-gray-300/80 before:content-['3']">
+          <span className="pl-6 text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">head</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg  text-white before:pr-10 before:text-gray-300/80 before:content-['4']">
+          <span className="pl-12 text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">name</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>Alexey Poltoradnev 👋</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">name</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg  text-white before:pr-10 before:text-gray-300/80 before:content-['5']">
+          <span className="pl-12 text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">degree</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg  text-white before:pr-10 before:text-gray-300/80 before:content-['6']">
+          <span className="pl-[5rem]">Bachelor in Computer Science</span>
+        </div>
+        <div className="pl-10 text-lg  text-white before:pr-10 before:text-gray-300/80 before:content-['7']">
+          <span className="pl-[5rem]">2024 Samara University</span>
+        </div>
+        <div className="pl-10 text-lg  text-white before:pr-10 before:text-gray-300/80 before:content-['8']">
+          <span className="pl-12 text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">degree</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+
+        <div className="pl-10 text-lg  text-white before:pr-10 before:text-gray-300/80 before:content-['9']">
+          <span className="pl-6 text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">head</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg  text-white before:pr-10 before:text-gray-300/80 before:content-['10']">
+          <span className="pl-6 text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">body</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg  text-white before:pr-10 before:text-gray-300/80 before:content-['11']">
+          <span className="pl-12 text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">about</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>web dev enthusiast 👨‍💻</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">about</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg  text-white before:pr-10 before:text-gray-300/80 before:content-['12']">
+          <span className="pl-12 text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">age</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>22 y.o. 💪</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">age</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg  text-white before:pr-10 before:text-gray-300/80 before:content-['13']">
+          <span className="pl-12 text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">goal</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>to be a better developer 🎯</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">goal</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+
+        <div className="pl-10 text-lg  text-white before:pr-10 before:text-gray-300/80 before:content-['14']">
+          <span className="pl-12 text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skills</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80 before:content-['15']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>HTML</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80 before:content-['16']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>CSS</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80 before:content-['17']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>JavaScript</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80 before:content-['18']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>TypeScript</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80 before:content-['19']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>React</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80 before:content-['20']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>Next.js</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80 before:content-['21']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>React Native</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80 before:content-['22']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>Redux Toolkit</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80 before:content-['23']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>TailwindCSS 💅</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80 before:content-['24']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>HeadlessUI</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80 before:content-['25']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>FramerMotion</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80 before:content-['26']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>Node</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80 before:content-['27']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>Express</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80 before:content-['28']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>Nest.js 🐅</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80 before:content-['28']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>GraphQL</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80 before:content-['29']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>Apollo</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80 before:content-['30']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>WebRTC</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80 before:content-['31']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>WebSockets</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80 before:content-['32']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>PostgreSQL 🐘</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80 before:content-['33']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>MongoDB 🍃</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80 before:content-['34']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>Prisma</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80 before:content-['35']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>Git</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80 before:content-['36']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>Postman 🧑‍🚀</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80 before:content-['37']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>Docker 🐳</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+
+        <div className="pl-10 text-lg  text-white before:pr-10 before:text-gray-300/80 before:content-['38']">
+          <span className="pl-12 text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skills</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+
+        <div className="pl-10 text-lg  text-white before:pr-10 before:text-gray-300/80 before:content-['39']">
+          <span className="pl-6 text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">body</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg  text-white before:pr-10 before:text-gray-300/80 before:content-['40']">
+          <span className="text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">/html</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+      </div>
     </>
   );
 }

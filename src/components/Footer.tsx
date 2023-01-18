@@ -8,6 +8,7 @@ import {
   VscFeedback,
   VscBell,
 } from "react-icons/vsc";
+import { SiVercel } from "react-icons/si";
 import { GrGraphQl } from "react-icons/gr";
 
 export default function Footer() {
@@ -29,17 +30,21 @@ export default function Footer() {
         </div>
       </div>
       <div className="flex h-full items-center space-x-3">
-        <div className="hidden h-full cursor-pointer items-center space-x-2 px-2 text-lg transition ease-out hover:bg-gray-300/20 md:flex">
+        <div className="hidden h-full cursor-pointer items-center space-x-2 px-2 text-lg transition ease-out hover:bg-gray-300/20 lg:flex">
           UTF-8
         </div>
         <div className="hidden h-full cursor-pointer items-center space-x-2 px-2 text-xl transition ease-out hover:bg-gray-300/20 md:flex">
+          <SiVercel className="text-lg" />
+          <span className="text-lg">Powered By Next.js</span>
+        </div>
+        <div className="hidden h-full cursor-pointer items-center space-x-2 px-2 text-xl transition ease-out hover:bg-gray-300/20 lg:flex">
           <VscJson />
           <span className="text-lg">TypeScript React</span>
         </div>
-        <div className="flex h-full cursor-pointer items-center space-x-1 px-2 text-xl transition ease-out hover:bg-gray-300/20">
+        <div className="hidden h-full cursor-pointer items-center space-x-1 px-2 text-xl transition ease-out hover:bg-gray-300/20 lg:flex">
           <GrGraphQl />
         </div>
-        <div className="flex h-full cursor-pointer items-center space-x-2 px-2 text-xl transition ease-out hover:bg-gray-300/20">
+        <div className="flex h-full cursor-pointer items-center space-x-2  px-2 text-xl transition ease-out hover:bg-gray-300/20">
           <VscCheck />
           <span className="text-lg">Prettier</span>
         </div>
