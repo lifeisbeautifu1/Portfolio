@@ -153,7 +153,7 @@ export default function Projects() {
         </div>
         <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-gray-300/80 before:content-['30']">
           <span className="pl-[4rem] text-[#C5947C]">
-            "See Incoming Messages / Friends Requests / Messages / Calls Live"
+            "See Incoming Messages / Friends Requests / Calls Live"
           </span>
           ,
         </div>
