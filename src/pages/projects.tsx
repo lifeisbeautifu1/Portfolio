@@ -23,13 +23,12 @@ export default function Projects() {
         </div>
         <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['3']">
           <span className="pl-6 text-[#74985D]">
-            This discord clone is the most recent and advanced one. Still under
-            the construction 🚧 🏗️ ⛔.
+            This discord clone is the most recent and advanced one.
           </span>
         </div>
         <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['']">
           <span className="pl-6 text-[#74985D]">
-            You can check the progress in readme file
+            You can check the progress in readme file.
           </span>
         </div>
         <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['4']">
