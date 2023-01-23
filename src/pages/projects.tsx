@@ -111,7 +111,7 @@ export default function Projects() {
           <span className="text-[#F7D648]">{"]"}</span>,
         </div>
         <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['22']">
-          <span className="pl-[4rem] text-[#AADAFA]">devOpes:</span>
+          <span className="pl-[4rem] text-[#AADAFA]">devOps:</span>
           <span className="text-[#F7D648]"> {"["}</span>
           <span className="text-[#C5947C]">"Docker"</span>
           <span className="text-[#F7D648]">{"]"}</span>,
