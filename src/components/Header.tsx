@@ -1,6 +1,6 @@
 import { AiOutlineMinus } from "react-icons/ai";
 import { IoMdClose } from "react-icons/io";
-import { MdOpenInFull } from "react-icons/md";
+import { BsChevronExpand } from "react-icons/bs";
 
 export default function Header() {
   return (
@@ -13,7 +13,7 @@ export default function Header() {
           <AiOutlineMinus className="hidden text-[10px] group-hover:block" />
         </div>
         <div className="flex h-3 w-3 cursor-pointer items-center justify-center rounded-full bg-green-500">
-          <MdOpenInFull className="hidden rotate-90 text-[10px] group-hover:block" />
+          <BsChevronExpand className="hidden -rotate-45 text-[10px] group-hover:block" />
         </div>
       </div>
     </header>
