@@ -123,7 +123,7 @@ export default function About() {
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
-          <span>JavaScript ❤️</span>
+          <span>JavaScript 💛</span>
           <span className=" text-gray-400/80">{"</"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -205,7 +205,7 @@ export default function About() {
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
-          <span>Node.js 💛 </span>
+          <span>Node.js 💚</span>
           <span className=" text-gray-400/80">{"</"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -340,7 +340,7 @@ export default function About() {
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
-          <span>Figma </span>
+          <span>Figma</span>
           <span className=" text-gray-400/80">{"</"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
