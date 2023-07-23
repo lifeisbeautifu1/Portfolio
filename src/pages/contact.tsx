@@ -62,6 +62,28 @@ export default function Contact() {
           </Link>
           ;
         </div>
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80  before:content-['8']">
+          <span className="pl-6 text-[#AADAFA]">codeforces:</span>{" "}
+          <Link
+            target="_blank"
+            href="https://codeforces.com/profile/Lifeisbeautifu1"
+            className="text-[#C5947C] hover:underline"
+          >
+            lifeisbeatuifu1
+          </Link>
+          ;
+        </div>
+        <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80  before:content-['8']">
+          <span className="pl-6 text-[#AADAFA]">leetcode:</span>{" "}
+          <Link
+            target="_blank"
+            href="https://leetcode.com/lifeisbeautifu1/"
+            className="text-[#C5947C] hover:underline"
+          >
+            lifeisbeatuifu1
+          </Link>
+          ;
+        </div>
         <div className="pl-10 text-lg text-white before:pr-10 before:text-gray-300/80  before:content-['9']">
           <span className="text-[#F7D648]">{"}"}</span>{" "}
         </div>

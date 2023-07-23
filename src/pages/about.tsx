@@ -45,7 +45,9 @@ export default function About() {
           <span className="text-gray-400/80">{">"}</span>
         </div>
         <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['6']">
-          <span className="pl-[5rem]">Bachelor in Computer Science</span>
+          <span className="pl-[5rem]">
+            Bachelor in Applied Mathematics and Informatics
+          </span>
         </div>
         <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['7']">
           <span className="pl-[5rem]">2024 Samara University</span>
@@ -121,7 +123,7 @@ export default function About() {
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
-          <span>JavaScript</span>
+          <span>JavaScript ❤️</span>
           <span className=" text-gray-400/80">{"</"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -139,7 +141,7 @@ export default function About() {
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
-          <span>React</span>
+          <span>React 💙</span>
           <span className=" text-gray-400/80">{"</"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -175,7 +177,7 @@ export default function About() {
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
-          <span>TailwindCSS 💅</span>
+          <span>TailwindCSS 💜</span>
           <span className=" text-gray-400/80">{"</"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -203,7 +205,7 @@ export default function About() {
           <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
-          <span>Node</span>
+          <span>Node.js 💛 </span>
           <span className=" text-gray-400/80">{"</"}</span>
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
@@ -316,19 +318,46 @@ export default function About() {
           <span className="text-[#6597CD]">skill-item</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['38']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>Storybook 📚</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['39']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>Webpack 📦</span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
+        <div className="pl-10 text-lg text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['40']">
+          <span className="pl-[5rem] text-gray-400/80">{"<"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+          <span>Figma </span>
+          <span className=" text-gray-400/80">{"</"}</span>
+          <span className="text-[#6597CD]">skill-item</span>
+          <span className="text-gray-400/80">{">"}</span>
+        </div>
 
-        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['38']">
+        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['41']">
           <span className="pl-12 text-gray-400/80">{"</"}</span>
           <span className="text-[#6597CD]">skills</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
 
-        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['39']">
+        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['42']">
           <span className="pl-6 text-gray-400/80">{"</"}</span>
           <span className="text-[#6597CD]">body</span>
           <span className="text-gray-400/80">{">"}</span>
         </div>
-        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['40']">
+        <div className="pl-10 text-lg  text-white before:inline-block before:w-[60px] before:pr-10 before:text-right before:text-gray-300/80 before:content-['43']">
           <span className="text-gray-400/80">{"</"}</span>
           <span className="text-[#6597CD]">html</span>
           <span className="text-gray-400/80">{">"}</span>
