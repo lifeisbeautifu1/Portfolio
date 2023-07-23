@@ -18,11 +18,12 @@ function Navbar() {
           </div>
 
           <span
-            className="absolute top-1/2 left-20 z-[20] min-w-max origin-left translate-y-[-50%] scale-0 border-[0.5px] border-gray-400 bg-[#252526] px-2 py-1.5 text-sm text-gray-400 shadow-md transition-all duration-100 before:absolute before:top-1/2 before:-left-3 before:z-[25] before:w-0 before:translate-y-[-50%] before:border-[6px] before:border-solid
+            className="absolute top-1/2 left-20 z-[20] min-w-max origin-left translate-y-[-50%] scale-0 border-[1px] border-gray-400 bg-[#252526] px-2 py-1.5 text-sm text-gray-400 shadow-md transition-all duration-100 before:absolute before:top-1/2 before:-left-3 before:z-[25] before:w-0 before:translate-y-[-50%] before:border-[6px] before:border-solid
           before:border-t-transparent before:border-l-transparent before:border-b-transparent
           before:border-r-gray-400 before:bg-transparent
-          after:absolute after:top-1/2
-          after:-left-2.5 after:z-50 after:w-0 after:translate-y-[-50%] after:border-[5px] after:border-solid after:border-t-transparent after:border-r-[#252526] after:border-l-transparent after:border-b-transparent group-hover:scale-100
+            after:absolute after:top-1/2
+          after:-left-[9.6px] after:z-50 after:w-0 after:translate-y-[-50%] after:border-[5px] after:border-solid after:border-t-transparent after:border-r-[#252526] after:border-l-transparent after:border-b-transparent
+         group-hover:scale-100
           "
           >
             Explorer (⇧⌘E)
@@ -33,7 +34,7 @@ function Navbar() {
             <VscSearch className="h-8 w-8" />
           </div>
           <span
-            className="absolute top-1/2 left-20 z-[20] min-w-max origin-left translate-y-[-50%] scale-0 border-[0.5px] border-gray-400 bg-[#252526] px-2 py-1.5 text-sm text-gray-400 shadow-md transition-all duration-100 before:absolute before:top-1/2 before:-left-3 before:w-0 before:translate-y-[-50%] before:border-[6px] before:border-solid before:border-t-transparent before:border-l-transparent before:border-b-transparent before:border-r-gray-400 before:bg-transparent after:absolute after:top-1/2 after:-left-2.5
+            className="absolute top-1/2 left-20 z-[20] min-w-max origin-left translate-y-[-50%] scale-0 border-[1px] border-gray-400 bg-[#252526] px-2 py-1.5 text-sm text-gray-400 shadow-md transition-all duration-100 before:absolute before:top-1/2 before:-left-3 before:w-0 before:translate-y-[-50%] before:border-[6px] before:border-solid before:border-t-transparent before:border-l-transparent before:border-b-transparent before:border-r-gray-400 before:bg-transparent after:absolute after:top-1/2 after:-left-[9.6px]
             after:w-0 after:translate-y-[-50%] after:border-[5px] after:border-solid after:border-t-transparent after:border-r-[#252526] after:border-l-transparent after:border-b-transparent group-hover:scale-100
           "
           >
@@ -45,7 +46,7 @@ function Navbar() {
             <VscSourceControl className="h-8 w-8" />
           </div>
           <span
-            className="absolute top-1/2 left-20 z-[20] min-w-max origin-left translate-y-[-50%] scale-0 border-[0.5px] border-gray-400 bg-[#252526] px-2 py-1.5 text-sm text-gray-400 shadow-md transition-all duration-100 before:absolute before:top-1/2 before:-left-3 before:w-0 before:translate-y-[-50%] before:border-[6px] before:border-solid before:border-t-transparent before:border-l-transparent before:border-b-transparent before:border-r-gray-400 before:bg-transparent after:absolute after:top-1/2 after:-left-2.5
+            className="absolute top-1/2 left-20 z-[20] min-w-max origin-left translate-y-[-50%] scale-0 border-[1px] border-gray-400 bg-[#252526] px-2 py-1.5 text-sm text-gray-400 shadow-md transition-all duration-100 before:absolute before:top-1/2 before:-left-3 before:w-0 before:translate-y-[-50%] before:border-[6px] before:border-solid before:border-t-transparent before:border-l-transparent before:border-b-transparent before:border-r-gray-400 before:bg-transparent after:absolute after:top-1/2 after:-left-[9.6px]
             after:w-0 after:translate-y-[-50%] after:border-[5px] after:border-solid after:border-t-transparent after:border-r-[#252526] after:border-l-transparent after:border-b-transparent group-hover:scale-100
           "
           >
@@ -57,7 +58,7 @@ function Navbar() {
             <VscDebugAltSmall className="h-8 w-8" />
           </div>
           <span
-            className="absolute top-1/2 left-20 z-[20] min-w-max origin-left translate-y-[-50%] scale-0 border-[0.5px] border-gray-400 bg-[#252526] px-2 py-1.5 text-sm text-gray-400 shadow-md transition-all duration-100 before:absolute before:top-1/2 before:-left-3 before:w-0 before:translate-y-[-50%] before:border-[6px] before:border-solid before:border-t-transparent before:border-l-transparent before:border-b-transparent before:border-r-gray-400 before:bg-transparent after:absolute after:top-1/2 after:-left-2.5
+            className="absolute top-1/2 left-20 z-[20] min-w-max origin-left translate-y-[-50%] scale-0 border-[1px] border-gray-400 bg-[#252526] px-2 py-1.5 text-sm text-gray-400 shadow-md transition-all duration-100 before:absolute before:top-1/2 before:-left-3 before:w-0 before:translate-y-[-50%] before:border-[6px] before:border-solid before:border-t-transparent before:border-l-transparent before:border-b-transparent before:border-r-gray-400 before:bg-transparent after:absolute after:top-1/2 after:-left-[9.6px]
             after:w-0 after:translate-y-[-50%] after:border-[5px] after:border-solid after:border-t-transparent after:border-r-[#252526] after:border-l-transparent after:border-b-transparent group-hover:scale-100
           "
           >
@@ -69,7 +70,7 @@ function Navbar() {
             <VscExtensions className="h-8 w-8" />
           </div>
           <span
-            className="absolute top-1/2 left-20 z-[20] min-w-max origin-left translate-y-[-50%] scale-0 border-[0.5px] border-gray-400 bg-[#252526] px-2 py-1.5 text-sm text-gray-400 shadow-md transition-all duration-100 before:absolute before:top-1/2 before:-left-3 before:w-0 before:translate-y-[-50%] before:border-[6px] before:border-solid before:border-t-transparent before:border-l-transparent before:border-b-transparent before:border-r-gray-400 before:bg-transparent after:absolute after:top-1/2 after:-left-2.5
+            className="absolute top-1/2 left-20 z-[20] min-w-max origin-left translate-y-[-50%] scale-0 border-[1px] border-gray-400 bg-[#252526] px-2 py-1.5 text-sm text-gray-400 shadow-md transition-all duration-100 before:absolute before:top-1/2 before:-left-3 before:w-0 before:translate-y-[-50%] before:border-[6px] before:border-solid before:border-t-transparent before:border-l-transparent before:border-b-transparent before:border-r-gray-400 before:bg-transparent after:absolute after:top-1/2 after:-left-[9.6px]
             after:w-0 after:translate-y-[-50%] after:border-[5px] after:border-solid after:border-t-transparent after:border-r-[#252526] after:border-l-transparent after:border-b-transparent group-hover:scale-100
           "
           >
@@ -83,7 +84,7 @@ function Navbar() {
             <VscAccount className="h-8 w-8" />
           </div>
           <span
-            className="absolute top-1/2 left-20 z-[20] min-w-max origin-left translate-y-[-50%] scale-0 border-[0.5px] border-gray-400 bg-[#252526] px-2 py-1.5 text-sm text-gray-400 shadow-md transition-all duration-100 before:absolute before:top-1/2 before:-left-3 before:w-0 before:translate-y-[-50%] before:border-[6px] before:border-solid before:border-t-transparent before:border-l-transparent before:border-b-transparent before:border-r-gray-400 before:bg-transparent after:absolute after:top-1/2 after:-left-2.5
+            className="absolute top-1/2 left-20 z-[20] min-w-max origin-left translate-y-[-50%] scale-0 border-[1px] border-gray-400 bg-[#252526] px-2 py-1.5 text-sm text-gray-400 shadow-md transition-all duration-100 before:absolute before:top-1/2 before:-left-3 before:w-0 before:translate-y-[-50%] before:border-[6px] before:border-solid before:border-t-transparent before:border-l-transparent before:border-b-transparent before:border-r-gray-400 before:bg-transparent after:absolute after:top-1/2 after:-left-[9.6px]
             after:w-0 after:translate-y-[-50%] after:border-[5px] after:border-solid after:border-t-transparent after:border-r-[#252526] after:border-l-transparent after:border-b-transparent group-hover:scale-100
           "
           >
@@ -95,7 +96,7 @@ function Navbar() {
             <VscSettingsGear className="h-8 w-8" />
           </div>
           <span
-            className="absolute top-1/2 left-20 z-[20] min-w-max origin-left translate-y-[-50%] scale-0 border-[0.5px] border-gray-400 bg-[#252526] px-2 py-1.5 text-sm text-gray-400 shadow-md transition-all duration-100 before:absolute before:top-1/2 before:-left-3 before:w-0 before:translate-y-[-50%] before:border-[6px] before:border-solid before:border-t-transparent before:border-l-transparent before:border-b-transparent before:border-r-gray-400 before:bg-transparent after:absolute after:top-1/2 after:-left-2.5
+            className="absolute top-1/2 left-20 z-[20] min-w-max origin-left translate-y-[-50%] scale-0 border-[1px] border-gray-400 bg-[#252526] px-2 py-1.5 text-sm text-gray-400 shadow-md transition-all duration-100 before:absolute before:top-1/2 before:-left-3 before:w-0 before:translate-y-[-50%] before:border-[6px] before:border-solid before:border-t-transparent before:border-l-transparent before:border-b-transparent before:border-r-gray-400 before:bg-transparent after:absolute after:top-1/2 after:-left-[9.6px]
             after:w-0 after:translate-y-[-50%] after:border-[5px] after:border-solid after:border-t-transparent after:border-r-[#252526] after:border-l-transparent after:border-b-transparent group-hover:scale-100
           "
           >
