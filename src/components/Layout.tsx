@@ -16,7 +16,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
   const rightSideRef = useRef<HTMLDivElement>(null);
 
   const mouseMoveHandler = useCallback(
-    (e: React.MouseEvent) => {
+    (e: any) => {
       if (sidebarRef.current && resizerRef.current && rightSideRef.current) {
         const dx = e.clientX - x;
 
@@ -31,6 +31,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         if (resizerRef.current.parentNode) {
           const newLeftWidth =
             ((leftWidth + dx) * 100) /
+            // @ts-ignore
             resizerRef.current.parentNode.getBoundingClientRect().width;
 
           sidebarRef.current.style.width = `${newLeftWidth}%`;
