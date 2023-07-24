@@ -10,7 +10,7 @@ import {
 
 function Navbar() {
   return (
-    <div className="flex h-full w-[72px] flex-col justify-between bg-[#2d2d30]">
+    <div className="flex h-full w-[72px] flex-shrink-0 flex-col justify-between border-t border-b border-zinc-600 bg-[#2d2d30]">
       <div>
         <div className="group relative">
           <div className="flex cursor-pointer items-center justify-center border-l-[2px] border-white p-4 text-white transition duration-300 ease-out">

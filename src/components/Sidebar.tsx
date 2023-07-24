@@ -1,11 +1,15 @@
 import Link from "next/link";
 import Image from "next/image";
+import { forwardRef } from "react";
 import { VscEllipsis, VscChevronDown } from "react-icons/vsc";
 import { Disclosure, Transition } from "@headlessui/react";
 
-const Sidebar = () => {
+const Sidebar = forwardRef<HTMLDivElement>(function Sidebar(props, ref) {
   return (
-    <div className="h-full w-[19rem] flex-shrink-0 select-none bg-[#1e1e1e] shadow">
+    <div
+      ref={ref}
+      className="h-full w-[320px] min-w-[240px] max-w-[720px] flex-shrink-0 select-none border-l border-b border-t border-zinc-600 bg-[#1e1e1e] shadow"
+    >
       <div className="flex items-center justify-between py-2.5 pr-5 pl-7 text-gray-300/80">
         <p className="uppercase">Explorer</p>
         <div className="cursor-pointer rounded px-1 py-1 text-2xl hover:bg-gray-600/30">
@@ -16,7 +20,7 @@ const Sidebar = () => {
         <Disclosure defaultOpen={true}>
           {({ open }) => (
             <>
-              <Disclosure.Button className="cursor-pointer py-2 font-bold uppercase text-gray-300">
+              <Disclosure.Button className="w-full cursor-pointer py-2 font-bold uppercase text-gray-300">
                 <div className="flex items-center pl-2">
                   <VscChevronDown
                     className={`duratio-300 text-2xl transition ease-out ${
@@ -96,6 +100,6 @@ const Sidebar = () => {
       </div>
     </div>
   );
-};
+});
 
 export default Sidebar;
